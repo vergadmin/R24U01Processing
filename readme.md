@@ -12,11 +12,12 @@ These are old logs from a previous database. Ask the dev team for this if you do
 * R24_Logs_Old.csv
 
 ## File Structure
-Once you download this repo, put the **R24_Logs_Old.csv** at the root. Then, create a subfolder under **Data** (you can call it whatever you want, but standard is date of data pull, like **Data/[Date]**). You do not need to touch the Outputs folder, as outputs will be auto-generated. Here is an example of a working file structure: 
+Once you download this repo, put the **R24_Logs_Old.csv** at the root. Then, create a subfolder under **Data** (you can call it whatever you want, but standard is date of data pull, like **Data/[Date]**). You will need to create an **Outputs** folder (but don't have to do anything with it as outputs will be auto-generated). Here is an example of a working file structure: 
 ```
 Main.ipynb
 R24_Logs_Old.csv
 Data/
+└── R24_Logs_Old.csv
 └── March 2 2026/
     ├── Prescreener.csv
     ├── Remuneration.csv
@@ -40,9 +41,9 @@ You will only need one thing from the dev team -- and that is, in the second box
 You will end up with the following output. You'll notice a bunch of items are auto-generated. The main interest here is, under **Outputs**, there is a new folder with the date matching the input data. You will find all processed CSV files here.
 
 ```
-Main.ipynb
-R24_Logs_Old.csv    
+Main.ipynb  
 Data/
+└── R24_Logs_Old.csv
 └── March 2 2026/
     ├── Prescreener.csv
     ├── Remuneration.csv
