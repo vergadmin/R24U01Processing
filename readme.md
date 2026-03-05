@@ -16,7 +16,7 @@ Once you download this repo, put the **R24_Logs_Old.csv** at the root. Then, cre
 ```
 Main.ipynb
 R24_Logs_Old.csv
-Data/
+Data/pip install
 └── R24_Logs_Old.csv
 └── March 2 2026/
     ├── Prescreener.csv
@@ -28,7 +28,10 @@ Outputs/
 ```
 
 ## Running the Python Script
-**Virtual Environment**: It is highly suggested to create some sort of virtual environment. We use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html). There is a `requirements.txt` included you can install all the dependencies from ... No guarantees how well it will work.
+**Virtual Environment**: It is highly suggested to create some sort of virtual environment. We use [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html). Here are specific instructions:
+1. After installing conda, open a terminal in the root `R24U01Processing` folder.
+2. Run the command `conda env create -f environment.yaml`, this creates an environment called `r24u01logs` and installs the dependencies using `pip` to that environment.
+3. Run the command `conda activate r24u01logs` to bring your terminal into the virtual environment.
 
 **Jupyter Notebook**: We run the code using [jupyter notebook](https://jupyter.org/install).
 

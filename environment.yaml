@@ -1,0 +1,9 @@
+name: r24u01logs
+channels:
+  - main
+  - conda-forge
+dependencies:
+  - python>=3.5
+  - pip
+  - pip:
+    - -r requirements.txt
